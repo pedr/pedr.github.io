@@ -21,7 +21,7 @@ const text = { skills: [`
             `<h2>Sobre</h2>
             <p>
               Meu nome é Pedro, sou estudante de Sistemas de Informação pelo Instituto Federal Catarinense e tenho 25 anos.     
-              Eu sempre tive interesse por tecnologia, mas apenas comecei a aprender a programar há no ano passado. 
+              Eu sempre tive interesse por tecnologia, mas apenas comecei a aprender a programar no ano passado. 
               Em 2017 decidi prestar o vestibular para o IFC após meus primeiros contatos com programação 
               nos cursos onlines, aka MOOC's (Massive Online Open Courses). O meu primeiro MOOC foi <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/"">
               Introduction to Computer Science</a> disponibilizado pela Harvard, onde aprendi que adoro resolver problemas e 
@@ -44,7 +44,7 @@ const text = { skills: [`
             </p>`,
             `<h2>About me</h2>
             <p>
-              My name is Pedro, I'm a college student of Information System on Instituo Federal Catarinense and I'm 25 years old.
+              My name is Pedro, I'm a college student of Information Systems on Instituto Federal Catarinense and I'm 25 years old.
               I've always been interested on technology, but I only started to learn how to code last year. In 2017 I decided to ingress on
               IFC after my first contact with coding on online courses, aka MOOC (Massive Online Open Courses). My first MOOC was 
               <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/"">Introduction to Computer Science</a>,

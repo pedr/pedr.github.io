@@ -20,7 +20,7 @@ const text = { skills: [`
             aboutMe: [
             `<h2>Sobre</h2>
             <p>
-              Meu nome é Pedro, sou estudante de Sistemas de Informação pelo Insituto Federal Catarinense e tenho 25 anos.     
+              Meu nome é Pedro, sou estudante de Sistemas de Informação pelo Instituto Federal Catarinense e tenho 25 anos.     
               Eu sempre tive interesse por tecnologia, mas apenas comecei a aprender a programar há no ano passado. 
               Em 2017 decidi prestar o vestibular para o IFC após meus primeiros contatos com programação 
               nos cursos onlines, aka MOOC's (Massive Online Open Courses). O meu primeiro MOOC foi <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/"">

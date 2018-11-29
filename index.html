@@ -1,11 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Página de prueba<title>
-</head>
-<body>
-  <h1>Hola amiguitos!</h1>
-  <footer>gpuma 2017</footer>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/simple-style.css" rel="stylesheet" type="text/css">
+
+    <title>My homepage</title>
+  </head>
+  <body>
+    <!-- Header-->
+    <header>
+      <h1>Pedro Luiz Fernandes</h1>
+      <ul>
+        <a href="#skills"><li>SKILLS</li></a>
+        <a href="#aboutMe"><li>ABOUT ME</li></a>
+        <a href="#contact"><li>CONTACT</li></a>
+      </ul>
+    </header>
+
+    <div class="main-content">
+      <!-- Main area-->
+        <main>
+          <div id="skills" class="content">
+            <button id="btnSkills">pt</button>
+            <div id="skills-text">
+            </div>
+          </div>
+
+          <div id="aboutMe" class="content">
+            <button id="btnAboutMe">pt</button>
+            <div id="aboutMe-text">
+          </div>
+        </main>
+    </div>
+
+    <!-- Side bar-->
+      <aside id="contact" class="content">
+        <h2>Info</h2>
+        <p>pedrlz.frn@gmail.com</p>
+        <p>github.com/pedr</p>
+        <p>Itapema, SC</p>
+      </aside>
+
+    <!-- Footer-->
+    <footer>
+      <p>Made without any external libraries, only HTML, CSS and Javascript.</p>    
+      <p>Pedro L Fernandes, nov 2018</p>
+    </footer>
+    
+    <script type="text/javascript" src="translate.js"></script>
+  </body>
+
 </html>

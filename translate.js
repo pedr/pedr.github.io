@@ -39,19 +39,19 @@ const text = { skills: [`
               </ul> 
             </p>
             <p>
-              Depois desses cursos comecei a ficar mais interessado por tecnologias da web e agora estou estudando HTML/CSS e Javascript.
+              Nos últimos meses comecei me interessar mais por tecnologias da web e agora estou estudando HTML/CSS e Javascript.
               Atualmente estou lendo <a href="http://eloquentjavascript.net/">Eloquent Javascript</a> e aprendendo como construir API's com Node.js
             </p>`,
             `<h2>About me</h2>
             <p>
               My name is Pedro, I'm a college student of Information Systems on Instituto Federal Catarinense and I'm 25 years old.
-              I've always been interested on technology, but I only started to learn how to code last year. In 2017 I decided to ingress on
+              I've always been interested in technology, but I only started to learn how to code last year. In 2017 I decided to ingress on
               IFC after my first contact with coding on online courses, aka MOOC (Massive Online Open Courses). My first MOOC was 
               <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/"">Introduction to Computer Science</a>,
-              provided by Harvard, it was when I realized that I love to solve problems and that I want to do that for the rest of my life.
+              provided by Harvard. Then I realized that I love to solve problems and that I want to do that for the rest of my life.
             </p>
             <p>
-              I also made others MOOC's courses like:
+              I also made others MOOC's, like:
               <ul>
                 <li><a href="https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python">
                   Introduction to Computer Science and Programming with Python</a>, provided by MIT</li>

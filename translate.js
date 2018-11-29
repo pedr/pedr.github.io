@@ -1,5 +1,4 @@
 
-
 const text = { skills: [`
             <h2>Competências</h2>
             <ul>
@@ -84,21 +83,30 @@ buttons.forEach( button => {
   })
 });
 
+let s = document.getElementById('btnSkills');
+let s1 = document.getElementById('skills');
+translate(s, s1.id);
+
+let m = document.getElementById('btnAboutMe');
+let m1 = document.getElementById('aboutMe');
+translate(m, m1.id);
+
 function translate(btn, nome) {
   let textArea = document.getElementById(nome);
+  console.log(textArea + '\n' + nome);
   textArea.classList.add(animation);
   setTimeout( () => {
     textArea.classList.remove(animation);
   }, animationDuration);
 
   let content;
-  if (btn.innerHTML == 'pt') {
+  if (btn.innerHTML == 'PT') {
     content = text[nome][0];
-    btn.innerHTML = 'en';
+    btn.innerHTML = 'EN';
     ptEn = 1;
   } else {
     content = text[nome][1];
-    btn.innerHTML = 'pt';
+    btn.innerHTML = 'PT';
     ptEn = 0;
   }
 

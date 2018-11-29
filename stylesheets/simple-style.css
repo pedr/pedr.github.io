@@ -5,12 +5,13 @@ body {
   grid-row-gap: 3%;
   margin-left: 5%;
   margin-right: 5%;
+  background-color: #747994;
 }
 
 h1{
-  background-color: darkturquoise;
+  background-color: #8CBA80;
   border-radius: 10px;
-  border: 2px solid green;
+  border: 2px solid #272B42;
 }
 
 header ul {
@@ -22,17 +23,17 @@ header ul {
 }
 
 header li {
-  background-color: rgba(0, 185, 209, 0.671);
+  background-color: #ABCCA2; 
   padding: 1em;
   border-radius: 15px;
-  border: 2px solid green;
+  border: 2px solid #272B42;
   text-align: center;
   line-height: 1em;
-  box-shadow: 3px 3px 3px green ;
+  box-shadow: 0 3px 3px 1px #272B42 ;
 }
 
 header li:hover {
-  border: 3px solid green;
+  border: 3px solid #272B42;
   padding: 0.90em;
 }
 
@@ -43,6 +44,7 @@ header li:first-child {
 header a {
   text-decoration: none;
   color: black;
+  outline: none;
 }
 
 main {
@@ -67,13 +69,13 @@ h1 {
 }
 
 .content {
-  background-color: darkturquoise;
+  background-color: #8CBA80;
   border-radius: 10px;
-  border: 2px solid green;
+  border: 2px solid #272B42;
 }
 
 footer {
-  border-top: 1px solid green;
+  border-top: 1px solid #272B42;
 }
 
 footer p {
@@ -89,22 +91,22 @@ main button {
 .transition {
   border-radius: 10px;
   color: white;
-  background-color: teal;
+  background-color: #747994;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
   transition-property: background-color;
 }
 
 button {
-  background-color: rgba(0, 185, 209, 0.897);
-  border: 2px solid green;
+  background-color: #ABCCA2;
+  border: 2px solid #272B42;
   padding: 0.5em 1em 0.5em 1em;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px green ;
+  box-shadow: 0 3px 3px 1px #272B42 ;
 }
 
 button:hover {
-  border: 3px solid green;
+  border: 3px solid #272B42;
   padding: 0.45em 0.9em 0.45em 0.9em ;
 }
 

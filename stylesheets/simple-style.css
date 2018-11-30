@@ -5,11 +5,11 @@ body {
   grid-row-gap: 3%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #747994;
+  background-image: linear-gradient(to top left, #747994, #9499b6);
 }
 
 h1{
-  background-color: #8CBA80;
+  background-image: linear-gradient(to bottom, #8CBA80, #addda2);
   border-radius: 10px;
   border: 2px solid #272B42;
 }
@@ -24,6 +24,7 @@ header ul {
 
 header li {
   background-color: #ABCCA2; 
+  background-image: linear-gradient(to bottom, #ABCCA2, rgb(185, 224, 174));
   padding: 1em;
   border-radius: 15px;
   border: 2px solid #272B42;
@@ -70,12 +71,14 @@ h1 {
 
 .content {
   background-color: #8CBA80;
+  background-image: linear-gradient(to bottom right, #8CBA80, #addda2);
   border-radius: 10px;
   border: 2px solid #272B42;
 }
 
 footer {
-  border-top: 1px solid #272B42;
+  margin-top: 3%;
+  border-top: 1px solid #7c819c;
 }
 
 footer p {
